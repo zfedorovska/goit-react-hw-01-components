@@ -17,7 +17,6 @@ export const App = () => {
         location={user.location}
         stats={user.stats}
       />
-
       <Statistics title="Test Upload stats" statsData={data} />
       <Statistics statsData={data} /> 
       <FriendList friends={friends} />;
